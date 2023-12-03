@@ -5,6 +5,7 @@
     margin-top: 2rem;
     z-index: -2;
     background-color:burlywood;
+    
 }
 
 .fruit-display-div{
@@ -12,9 +13,33 @@
     border: 2px dotted #ededed;
     padding: 20px;
     cursor: pointer;
+    position: relative;
 }
 
 .fruit-image{
     width: 175px;
     height: 150px;
+}
+
+.pickme{
+    width: 3rem;
+    height: 3rem;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.blink{
+    animation: blink-animation 2s infinite;
+}
+
+@keyframes blink-animation {
+    0%{
+        opacity: 0;
+    }
+    
+    100%{
+        opacity: 1;
+    }
+    
 }
