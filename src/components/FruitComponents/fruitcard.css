@@ -1,0 +1,17 @@
+.inner-card-div{
+    border: solid black;
+    background-color: burlywood;
+    display: flex;
+    height: 50vh;
+    width: 15vw;
+
+}
+
+.nutrients-header-div{
+    border: solid blue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
