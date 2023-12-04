@@ -2,3 +2,22 @@
     display: flex;
     margin-top: 10rem;
 }
+
+
+
+.howmuchfruituneed-sidediv{
+    background-color: white;
+    position: relative;
+    display: flex;
+    width: 50%;
+    top: 50px;
+}
+
+.howmuchfruituneed{
+    position: relative;
+}
+
+.fruitneedlist{
+    text-align: left;
+}
+

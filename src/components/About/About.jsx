@@ -1,9 +1,18 @@
-import React from 'react'
+import React, { useRef } from 'react'
 import './about.css'
 import Header from '../Header/Header'
 import Aboutpage from '../Aboutpage/Aboutpage'
 
 function About() {
+
+    const aboutpage = useRef(null);
+
+    const scrollToSection = (elementref) => {
+        window.scrollTo({
+            behavior: "smooth",
+            top : elementref.current.offsetTop,
+        })
+    }
   return (
     <div>
         <Header/>
@@ -26,13 +35,15 @@ function About() {
 
         <div className='third-part'>
             <div>
-               <p>How much fruit do you need?</p>
+               <p onClick={() => scrollToSection(aboutpage)} className='howmuchpara'>How much fruit do you need?</p>
             </div>
             <div>
                 <p>Why is it important to eat fruit?</p>
             </div>
         </div>
+        <div ref={aboutpage}>
         <Aboutpage/>
+        </div>
     </div>
   )
 }

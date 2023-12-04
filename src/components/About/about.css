@@ -20,3 +20,8 @@
 .second-part, .third-part{
     margin-top: 3rem;
 }
+
+.howmuchpara{
+    cursor: pointer;
+    text-decoration: underline;
+}
