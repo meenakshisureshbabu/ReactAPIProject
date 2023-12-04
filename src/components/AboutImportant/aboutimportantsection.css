@@ -1,0 +1,21 @@
+.aboutimp-image-div{
+    position: absolute;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.aboutimp-header-div{
+    position: absolute;
+    z-index: 1;
+    width: 50%;
+    background-color: white;
+    left: 0;
+    top: 10em;
+}
+
+.aboutimportantsection-div{
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+    top: 5rem;
+}

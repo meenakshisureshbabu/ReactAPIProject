@@ -2,10 +2,12 @@ import React, { useRef } from 'react'
 import './about.css'
 import Header from '../Header/Header'
 import Aboutpage from '../Aboutpage/Aboutpage'
+import AboutImportantsection from '../AboutImportant/AboutImportantsection'
 
 function About() {
 
     const aboutpage = useRef(null);
+    const aboutimp = useRef(null);
 
     const scrollToSection = (elementref) => {
         window.scrollTo({
@@ -38,11 +40,14 @@ function About() {
                <p onClick={() => scrollToSection(aboutpage)} className='howmuchpara'>How much fruit do you need?</p>
             </div>
             <div>
-                <p>Why is it important to eat fruit?</p>
+                <p onClick={() => scrollToSection(aboutimp)}>Why is it important to eat fruit?</p>
             </div>
         </div>
         <div ref={aboutpage}>
         <Aboutpage/>
+        </div>
+        <div ref={aboutimp}>
+            <AboutImportantsection/>
         </div>
     </div>
   )
