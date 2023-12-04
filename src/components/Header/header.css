@@ -1,0 +1,9 @@
+.icon-image{
+    height: 100px;
+    width: 100px;
+}
+.header-nav{
+    display: flex;
+    justify-content: space-between;
+}
+

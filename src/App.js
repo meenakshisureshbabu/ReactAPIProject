@@ -3,12 +3,16 @@ import './App.css';
 import FruitCard from './components/FruitComponents/FruitCard';
 import fruitimages from './models/fruitimages'
 import FruitDisplay from './components/FruitDisplay/FruitDisplay';
+import { useState } from 'react';
+import Header from './components/Header/Header';
 
 function App() {
+
   return (
     <div className="App">
-        {/* <FruitDisplay fruitimages={fruitimages}/> */}
-         <FruitCard/> 
+      <Header/>
+       <FruitDisplay fruitimages={fruitimages}/>
+        
 
     </div>
   );
