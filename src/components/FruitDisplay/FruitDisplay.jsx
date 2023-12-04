@@ -2,6 +2,7 @@ import React from 'react'
 import '../FruitDisplay/fruitdisplay.css'
 import FruitCard from '../FruitComponents/FruitCard'
 import { useState } from 'react'
+import Header from '../Header/Header'
 
 function FruitDisplay({fruitimages}) {
 
@@ -11,7 +12,10 @@ function FruitDisplay({fruitimages}) {
   
 
   return (
-    <section className='fruitdisplaycard'>{
+    <>
+    <Header/>
+    <section className='fruitdisplaycard'>
+      {
     fruitimages.map((fruit) => {
         return (
         <div className='fruit-display-div' key={fruit.id} onClick={() => {setOpenModal(true);setFruitid(fruit.id)}}>
@@ -25,6 +29,7 @@ function FruitDisplay({fruitimages}) {
     }
      {openModal && <FruitCard id={fruitid} closeModal={setOpenModal}/>}
     </section>
+    </>
   )
 }
 
