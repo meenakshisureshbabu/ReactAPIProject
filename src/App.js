@@ -7,8 +7,8 @@ import FruitDisplay from './components/FruitDisplay/FruitDisplay';
 function App() {
   return (
     <div className="App">
-        <FruitDisplay fruitimages={fruitimages}/>
-        {/* <FruitCard/> */}
+        {/* <FruitDisplay fruitimages={fruitimages}/> */}
+         <FruitCard/> 
 
     </div>
   );
