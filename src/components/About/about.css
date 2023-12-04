@@ -1,3 +1,22 @@
 .about-div{
     display: flex;
 }
+
+.howmuchfruitimg, .whyimpimg{
+    width: 50px;
+    height: 50px;
+}
+
+.second-part{
+    display: flex;
+    justify-content: space-around;
+}
+
+.third-part{
+    display: flex;
+    justify-content: space-around;
+}
+
+.second-part, .third-part{
+    margin-top: 3rem;
+}
