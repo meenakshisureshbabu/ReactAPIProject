@@ -3,7 +3,6 @@
     width: 100px;
 }
 .header-nav{
-    border: solid black;
     display: flex;
     justify-content: space-between;
     margin-left: 5rem;
@@ -33,6 +32,3 @@
     height: 20px;
 }
 
-.heading-div{
-    border: solid blue;
-}

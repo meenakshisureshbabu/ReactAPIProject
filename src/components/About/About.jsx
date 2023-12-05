@@ -21,7 +21,7 @@ function About() {
         <Header/>
         <div className='about-div'>
         <div className='focus-div'>
-            <img className='fruitwithkid' src="https://images.unsplash.com/photo-1467453678174-768ec283a940?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8a2lkcyUyMCUyMGVhdGluZyUyMGZydWl0c3xlbnwwfHwwfHx8MA%3D%3D"/>
+            <img className='fruitwithkid' src="https://images.theconversation.com/files/60763/original/ydk6krh8-1412333088.jpg?ixlib=rb-1.1.0&q=45&auto=format&w=1356&h=668&fit=crop"/>
             <div><h2>What foods are in the Fruit Group</h2></div>
             <div>The Fruit Group includes all fruits and 100% fruit juice. Fruits may be fresh, frozen, canned, or dried/dehydrated. Fruits can be eaten whole, cut up, pureed (mashed), or cooked. At least half of the recommended amount of fruit eaten should come from whole fruit, rather than 100% fruit juice.</div>
         </div>
