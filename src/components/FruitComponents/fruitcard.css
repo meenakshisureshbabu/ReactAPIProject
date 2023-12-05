@@ -51,5 +51,8 @@
    border: none;
 }
 
-
+.closebutton-div{
+    border: solid black;
+    position: relative;
+}
 

@@ -17,7 +17,7 @@ function FruitCard({ closeModal,id }) {
   useEffect(() => {
     console.log("Inside useEffect");
     getFruitData();
-  }, []);
+  },[]);
 
   return (
     <div className="fruit-card-div">
