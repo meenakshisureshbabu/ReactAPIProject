@@ -3,8 +3,12 @@
     width: 100px;
 }
 .header-nav{
+    border: solid black;
     display: flex;
     justify-content: space-between;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    
 }
 
 .menu-list li{
@@ -27,4 +31,8 @@
 .about-icon{
     width: 20px;
     height: 20px;
+}
+
+.heading-div{
+    border: solid blue;
 }

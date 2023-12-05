@@ -45,7 +45,7 @@ function About() {
             </div>
         </div>
         <div ref={aboutpage}>
-        <Aboutpage/>
+            <Aboutpage/>
         </div>
         <div ref={aboutimp}>
             <AboutImportantsection/>
