@@ -50,6 +50,9 @@ function About() {
         <div ref={aboutimp}>
             <AboutImportantsection/>
         </div>
+        <div className='footer'>
+        <Footer/>
+        </div>
     </div>
   )
 }
