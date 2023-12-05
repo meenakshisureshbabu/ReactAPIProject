@@ -1,0 +1,58 @@
+.carousel-div{
+    border: solid black;
+    height: 20rem;
+    margin-right: 2rem;
+}
+
+.inner-carousel{
+    transition: transform 0.3s;
+}
+
+.carousel-div{
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: auto;
+    margin-left: 3rem;
+}
+
+.carousel-data{
+    height: 20rem;
+    align-items: center;
+    justify-content: center;
+    white-space: nowrap;
+}
+
+ul li {
+    list-style-type: none;
+    font-size: 18px;
+}
+
+.carousel-data-img{
+    width: 100px;
+    height: 100px;
+}
+
+.carousel-buttons{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+button{
+    background-color: none;
+    border: none;
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+    background: transparent;
+}
+
+.carousel-item{
+    display: inline-flex;
+    justify-content: center;
+    width: 100%;
+    flex-direction: column;
+    margin-top: 2rem;
+}
+
