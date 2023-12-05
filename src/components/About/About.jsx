@@ -3,6 +3,7 @@ import './about.css'
 import Header from '../Header/Header'
 import Aboutpage from '../Aboutpage/Aboutpage'
 import AboutImportantsection from '../AboutImportant/AboutImportantsection'
+import Footer from '../Footer/Footer'
 
 function About() {
 
@@ -40,7 +41,7 @@ function About() {
                <p onClick={() => scrollToSection(aboutpage)} className='howmuchpara'>How much fruit do you need?</p>
             </div>
             <div>
-                <p onClick={() => scrollToSection(aboutimp)}>Why is it important to eat fruit?</p>
+                <p onClick={() => scrollToSection(aboutimp)} className='howmuchpara'>Why is it important to eat fruit?</p>
             </div>
         </div>
         <div ref={aboutpage}>
