@@ -1,10 +1,28 @@
 import React from "react";
 import '../Footer/footer.css'
+import { Link } from "react-router-dom";
 
 function Footer() {
   return (
     <div className="footer-div">
+      <div className="footer-section-div">
+        <div className="footer-menu">
+              <Link to="/">
+                <div>ABOUT</div>
+              </Link>
+              <Link to="/kyf">
+                <div>KNOW ABOUT YOUR FRUIT</div>
+              </Link>
+              <a href="https://www.google.com/maps/search/grocery+store+near+me/" target="_blank">
+              <div>SPOT YOUR GROCERY STORE</div>
+              </a>
+              <a href="https://www.linkedin.com/in/meenakshisb/" target="_blank">
+              <div>CONTACT INFO</div>
+              </a>
+        </div>
+        <h2>FOLLOW ME</h2>
       <div className="connectdiv">
+        
         <div>
           <img
             className="facebookicon"
@@ -35,6 +53,7 @@ function Footer() {
             src="https://i.pinimg.com/originals/0e/17/41/0e1741bd58d614ed7f38950948d3f7e0.jpg"
           />
         </div>
+      </div>
       </div>
     </div>
   );
