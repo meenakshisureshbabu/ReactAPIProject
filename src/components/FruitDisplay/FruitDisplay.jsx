@@ -4,7 +4,7 @@ import FruitCard from '../FruitComponents/FruitCard'
 import { useState } from 'react'
 import Header from '../Header/Header'
 import Popup from 'reactjs-popup';
-
+import Footer from '../Footer/Footer'
 
 function FruitDisplay({fruitimages}) {
 
@@ -39,6 +39,7 @@ function FruitDisplay({fruitimages}) {
     }
      {/* {openModal && <FruitCard id={fruitid} closeModal={setOpenModal}/>} */}
     </section>
+    <Footer/>
     </>
   )
 }
