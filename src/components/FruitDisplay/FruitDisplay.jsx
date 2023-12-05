@@ -5,17 +5,36 @@ import { useState } from 'react'
 import Header from '../Header/Header'
 import Popup from 'reactjs-popup';
 import Footer from '../Footer/Footer'
+import { FaSearch } from "react-icons/fa";
 
 function FruitDisplay({fruitimages}) {
 
 
   const [fruitid,setFruitid] = useState(null)
 
-  
+  const [query,setQuery] = useState("");
+
+  const handleInputChange = (event) => {
+    setQuery(event.target.value);
+  }
+
+  const filtereddata = fruitimages.filter(fruitimage => fruitimage.name.toLowerCase().indexOf(query.toLowerCase())!== -1)
+
+  if(query){
+    fruitimages = filtereddata;
+  }
 
   return (
     <>
     <Header/>
+    <div className='search-div'>
+        <div><label>Search</label></div>
+        <div><input type="text" onChange={handleInputChange}></input></div>
+        <div>
+        <FaSearch/>
+        </div>
+    </div>
+    
     <section className='fruitdisplaycard'>
       {
     fruitimages.map((fruit) => {
