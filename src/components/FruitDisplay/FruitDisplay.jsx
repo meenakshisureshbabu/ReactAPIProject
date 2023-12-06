@@ -6,6 +6,7 @@ import Header from '../Header/Header'
 import Popup from 'reactjs-popup';
 import Footer from '../Footer/Footer'
 import { FaSearch } from "react-icons/fa";
+import Search from '../Search/Search'
 
 function FruitDisplay({fruitimages}) {
 
@@ -30,13 +31,7 @@ function FruitDisplay({fruitimages}) {
     return (
       <>
       <Header/>
-    <div className='search-div'>
-        <div><label className='searchlabel'>Search</label></div>
-        <div><input type="text" className='searchtext' onChange={handleInputChange}></input></div>
-        <div>
-        <FaSearch style={{width:"20px",height:"20px"}}/>
-        </div>
-      </div>
+      <Search handleInputChange = {handleInputChange}/>
       <section className='fruitdisplaycard'>
       {
     fruitimages.map((fruit) => {
@@ -57,7 +52,7 @@ function FruitDisplay({fruitimages}) {
     })
     
     }
-     {/* {openModal && <FruitCard id={fruitid} closeModal={setOpenModal}/>} */}
+    
     </section>
     <Footer/>
     </>
@@ -69,13 +64,7 @@ function FruitDisplay({fruitimages}) {
     return (
       <>
       <Header/>
-    <div className='search-div'>
-        <div><label className='searchlabel'>Search</label></div>
-        <div><input type="text" className='searchtext' onChange={handleInputChange}></input></div>
-        <div>
-        <FaSearch style={{width:"20px",height:"20px"}}/>
-        </div>
-      </div>
+      <Search handleInputChange = {handleInputChange}/>
     <h3>No Fruits found</h3>
     <Footer/>
     </>
