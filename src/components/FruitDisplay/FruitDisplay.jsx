@@ -42,7 +42,7 @@ function FruitDisplay({fruitimages}) {
             <img className='fruit-image' src={fruit.path} alt={fruit.name}></img>
            </div>
           }
-          position={['right center']}
+          position={['center center']}
           closeOnDocumentClick
           > 
           <FruitCard id={fruitid}/>       
