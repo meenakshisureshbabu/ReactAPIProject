@@ -4,6 +4,7 @@ import { FaSearch } from "react-icons/fa";
 import { Link } from 'react-router-dom';
 import { TypeAnimation } from 'react-type-animation'
 import { SiGooglemaps } from "react-icons/si";
+import { LuExternalLink } from "react-icons/lu";
 
 
 
@@ -27,7 +28,7 @@ function Header() {
                 <li><img className="kyf-icon"src="https://t4.ftcdn.net/jpg/04/19/88/61/360_F_419886166_78r9vX0ngjIooGYo5Q88Z2TR9bYrOfQL.jpg"></img>Know about your fruit</li>
                 </Link>
                 <a href="https://www.google.com/maps/search/grocery+store+near+me/" target='_blank'>
-                <li><SiGooglemaps />Spot Grocery Store</li>
+                <li><SiGooglemaps />Spot Grocery Store<LuExternalLink/></li>
                 </a>
             </ul>
             

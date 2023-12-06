@@ -1,6 +1,7 @@
 import React from "react";
 import '../Footer/footer.css'
 import { Link } from "react-router-dom";
+import { FiExternalLink } from "react-icons/fi";
 
 function Footer() {
   return (
@@ -17,7 +18,7 @@ function Footer() {
               <div>SPOT YOUR GROCERY STORE</div>
               </a>
               <a href="https://www.linkedin.com/in/meenakshisb/" target="_blank">
-              <div>CONTACT INFO</div>
+              <div>CONTACT INFO  <FiExternalLink/></div>
               </a>
         </div>
         <h2>FOLLOW ME</h2>

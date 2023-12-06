@@ -24,18 +24,20 @@ function FruitDisplay({fruitimages}) {
     fruitimages = filtereddata;
   }
 
-  return (
-    <>
-    <Header/>
+  
+
+  const dataAvailable = () => {
+    return (
+      <>
+      <Header/>
     <div className='search-div'>
-        <div><label>Search</label></div>
-        <div><input type="text" onChange={handleInputChange}></input></div>
+        <div><label className='searchlabel'>Search</label></div>
+        <div><input type="text" className='searchtext' onChange={handleInputChange}></input></div>
         <div>
-        <FaSearch/>
+        <FaSearch style={{width:"20px",height:"20px"}}/>
         </div>
-    </div>
-    
-    <section className='fruitdisplaycard'>
+      </div>
+      <section className='fruitdisplaycard'>
       {
     fruitimages.map((fruit) => {
         return (
@@ -59,7 +61,32 @@ function FruitDisplay({fruitimages}) {
     </section>
     <Footer/>
     </>
-  )
+    )
+  }
+
+  const nodatafound = () => {
+    
+    return (
+      <>
+      <Header/>
+    <div className='search-div'>
+        <div><label className='searchlabel'>Search</label></div>
+        <div><input type="text" className='searchtext' onChange={handleInputChange}></input></div>
+        <div>
+        <FaSearch style={{width:"20px",height:"20px"}}/>
+        </div>
+      </div>
+    <h3>No Fruits found</h3>
+    <Footer/>
+    </>
+    )
+  }
+
+  console.log(fruitimages.length)
+  return fruitimages.length > 0 ? dataAvailable() : nodatafound()
+    
+    
+  
 }
 
 export default FruitDisplay
