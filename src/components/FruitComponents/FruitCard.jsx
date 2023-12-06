@@ -5,10 +5,10 @@ import "../FruitComponents/fruitcard.css";
 function FruitCard({ id }) {
   console.log("ID",id);
   const [data, setData] = useState([]);
+  const [isOpen,setIsOpen] = useState(false)
   const apiurl = `/api/fruit/${id}`;
   console.log(apiurl)
 
-  
   useEffect(() => {
     const getFruitData = async () => {
       const resp = await fetch(apiurl);
@@ -18,8 +18,13 @@ function FruitCard({ id }) {
     };
   
     console.log("Inside useEffect");
-    getFruitData();
-  });
+    isOpen && getFruitData();
+  },[isOpen]);
+
+
+  useEffect(() => {
+    setIsOpen(true)
+  },[])
 
   const loaded = () => {
     return (
