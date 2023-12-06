@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useContext } from 'react'
 import '../FruitDisplay/fruitdisplay.css'
 import FruitCard from '../FruitComponents/FruitCard'
 import { useState } from 'react'
@@ -7,11 +7,13 @@ import Popup from 'reactjs-popup';
 import Footer from '../Footer/Footer'
 import { FaSearch } from "react-icons/fa";
 import Search from '../Search/Search'
+import { DarkModeContext } from '../../context/DarkModeContext'
 
 function FruitDisplay({fruitimages}) {
 
 
   const [fruitid,setFruitid] = useState(null)
+  const {darkMode} = useContext(DarkModeContext);
 
   const [query,setQuery] = useState("");
 
@@ -29,7 +31,7 @@ function FruitDisplay({fruitimages}) {
 
   const dataAvailable = () => {
     return (
-      <>
+      <div className={darkMode ? `FruitDisplayDark` : `FruitDisplayLight`}>
       <Header/>
       <Search handleInputChange = {handleInputChange}/>
       <section className='fruitdisplaycard'>
@@ -55,7 +57,7 @@ function FruitDisplay({fruitimages}) {
     
     </section>
     <Footer/>
-    </>
+    </div>
     )
   }
 

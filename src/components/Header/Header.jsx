@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 import { TypeAnimation } from 'react-type-animation'
 import { SiGooglemaps } from "react-icons/si";
 import { LuExternalLink } from "react-icons/lu";
-
+import ToggleComponent from '../Toggle/ToggleComponent';
 
 
 function Header() {
@@ -19,6 +19,7 @@ function Header() {
 
               </TypeAnimation>
         </div>
+        
         <div className='menu-div'>
             <ul className='menu-list'>
                 <Link to="/">
@@ -30,8 +31,9 @@ function Header() {
                 <a href="https://www.google.com/maps/search/grocery+store+near+me/" target='_blank'>
                 <li><SiGooglemaps />Spot Grocery Store<LuExternalLink/></li>
                 </a>
+                
             </ul>
-            
+            <ToggleComponent/>
         </div>
         
     </nav>

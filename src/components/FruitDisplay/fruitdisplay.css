@@ -20,7 +20,15 @@
     height: 150px;
 }
 
+.FruitDisplayDark{
+    background-color: black;
+    color: white;
+}
 
+.FruitDisplayLight{
+    background-color: white;
+    color: black;
+}
 
 
 

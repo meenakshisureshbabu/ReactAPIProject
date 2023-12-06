@@ -1,14 +1,16 @@
-import React, { useRef } from 'react'
+import React, { useContext, useRef } from 'react'
 import './about.css'
 import Header from '../Header/Header'
 import Aboutpage from '../Aboutpage/Aboutpage'
 import AboutImportantsection from '../AboutImportant/AboutImportantsection'
 import Footer from '../Footer/Footer'
+import { DarkModeContext } from '../../context/DarkModeContext'
 
 function About() {
 
     const aboutpage = useRef(null);
     const aboutimp = useRef(null);
+    const {darkMode} = useContext(DarkModeContext);
 
     const scrollToSection = (elementref) => {
         window.scrollTo({
@@ -17,7 +19,7 @@ function About() {
         })
     }
   return (
-    <div>
+    <div className={darkMode ? `AboutContainerDark` : `AboutContainerlight`}>
         <Header/>
         <div className='about-div'>
         <div className='focus-div'>
