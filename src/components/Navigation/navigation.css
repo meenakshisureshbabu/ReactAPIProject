@@ -1,0 +1,23 @@
+.menu-list li{
+    list-style-type: none;
+    display: inline;
+    margin-right: 15px;
+}
+
+.menu-list{
+    display: flex;
+    cursor: pointer;
+    justify-content: center;
+    /* text-decoration: underline;
+    font-weight: bold;*/
+}
+
+.menu-div{
+    border-top: solid black;
+    border-bottom:  solid black;
+    background-color: green;
+    cursor: pointer;
+    width: 100%;
+
+}
+

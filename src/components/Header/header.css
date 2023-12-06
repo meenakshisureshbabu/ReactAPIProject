@@ -10,17 +10,11 @@
     
 }
 
-.menu-list li{
-    list-style: none;
-    display: inline;
-    margin-right: 15px;
+.heading-div{
+    width: 25%;
 }
 
-.menu-list li:hover{
-    cursor: pointer;
-    text-decoration: underline;
-    font-weight: bold;
-}
+
 
 .kyf-icon{
     width: 50px;

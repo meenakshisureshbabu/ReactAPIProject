@@ -13,10 +13,16 @@
     top: 10em;
 }
 
-.aboutimportantsection-div{
+.aboutimportantsection-div, .aboutimportantsection-div-dark{
     position: relative;
     display: flex;
     justify-content: flex-end;
     top: 5rem;
+}
+
+.aboutimportantsection-div-dark{
+
+    background-color: black;
+    color: black;
 }
 

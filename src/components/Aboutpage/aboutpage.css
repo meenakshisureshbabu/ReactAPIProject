@@ -1,20 +1,36 @@
-.howmuchfruituneed{
+.howmuchfruituneed, .howmuchfruituneeddark{
     display: flex;
     margin-top: 10rem;
+    position: relative;
+    
+}
+
+.howmuchfruituneed{
+    background-color: white;
+    color: black;
 }
 
 
 
-.howmuchfruituneed-sidediv{
-    background-color: white;
+.howmuchfruituneed-sidediv, .howmuchfruituneed-sidediv-dark{
     position: relative;
     display: flex;
     width: 50%;
     top: 50px;
 }
+.howmuchfruituneed-sidediv{
+    background-color: white;
+}
 
-.howmuchfruituneed{
-    position: relative;
+.howmuchfruituneed-sidediv-dark{
+    background-color: black;
+    color: white;
+}
+
+
+.howmuchfruituneeddark{
+    background-color: black;
+    color: white;
 }
 
 .fruitneedlist{

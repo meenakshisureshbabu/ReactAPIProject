@@ -1,10 +1,13 @@
-import React from 'react'
+import React, { useContext } from 'react'
 import './aboutimportantsection.css'
 import Carousel from '../Carousel/Carousel'
+import { DarkModeContext } from '../../context/DarkModeContext'
 
 function AboutImportantsection() {
+
+  const {darkMode} = useContext(DarkModeContext)
   return (
-    <div className='aboutimportantsection-div'>
+    <div className= {darkMode ? `aboutimportantsection-div-dark` : `aboutimportantsection-div`}>
         <div className='aboutimp-header-div'>
             <h1>Why is it important to eat fruit?</h1>
             <p>Eating fruit has many health benefits. People who eat fruits and vegetables as part of an overall diet may lower their risk for certain diseases. Fruits provide nutrients needed to maintain your health and body.</p>
