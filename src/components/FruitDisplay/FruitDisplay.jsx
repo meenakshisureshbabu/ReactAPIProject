@@ -38,9 +38,9 @@ function FruitDisplay({fruitimages}) {
         return (
           <Popup onOpen={() => setFruitid(fruit.id)} trigger={
           <div className='fruit-display-div' key={fruit.id}>
-          <h1>{fruit.name}</h1>
-          <img className='fruit-image' src={fruit.path} alt={fruit.name}></img>
-        </div>
+            <h1>{fruit.name}</h1>
+            <img className='fruit-image' src={fruit.path} alt={fruit.name}></img>
+           </div>
           }
           position={['right center']}
           closeOnDocumentClick
