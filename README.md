@@ -77,7 +77,7 @@ The social icons in this project will not work as it leads to personal informati
 
 ### Screenshots
 
-![Home page](/recipe/public/homepage.png)
+![Home page](/public/homepage.png)
 
 This home page has 3 menus, 
 
@@ -86,11 +86,11 @@ This home page has 3 menus,
 3. Spot your nearest grocery store.(Where the user can directly redirected to google maps with grocery store as input)
 4. Contact Us 
 
-![Fruits Nutrition](/recipe/public/fruits.png)
+![Fruits Nutrition](/public/fruits.png)
 
 All the fruits will be displayed in this page and the user can click on each fruit to see its nutritional values which is called from the Fruityvice API.
 
-![Contact Us](/recipe/public/contact.png)
+![Contact Us](/public/contact.png)
 
 The user can give the name and email id and send email with the messages/questions.
 
