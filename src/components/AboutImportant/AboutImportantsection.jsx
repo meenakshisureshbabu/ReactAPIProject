@@ -17,7 +17,7 @@ function AboutImportantsection() {
         </div>
         
          <div className='aboutimp-image-div'>
-            <img src="https://images.unsplash.com/photo-1609196119588-15e77a42bf70?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fGZydWl0cyUyMGltYWdlc3xlbnwwfHwwfHx8MA%3D%3D"></img>
+            <img className="lemonimage" src="https://images.unsplash.com/photo-1609196119588-15e77a42bf70?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fGZydWl0cyUyMGltYWdlc3xlbnwwfHwwfHx8MA%3D%3D"></img>
         </div>
         
        
