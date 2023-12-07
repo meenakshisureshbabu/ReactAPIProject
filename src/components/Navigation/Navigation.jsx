@@ -1,15 +1,18 @@
-import React from 'react'
+import React, { useState } from 'react'
 import '../Navigation/navigation.css'
 import { Link } from 'react-router-dom';
 import { SiGooglemaps } from "react-icons/si";
 import { LuExternalLink } from "react-icons/lu";
-import Hamburger from '../Hamburger/Hamburger';
+
+
 
 function Navigation() {
+
+    
   return (
     <div className='nav-menu-div'>
         <div className='menu-div'>
-            <div className='hamburger-nav'><Hamburger/></div>
+            
             <div className='menu-list-div'>
             <ul className='menu-list'>
                 <Link to="/">
