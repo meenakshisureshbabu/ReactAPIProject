@@ -32,7 +32,6 @@
 }
 
 .form-div{
-
     margin-top: 3rem;
     display: flex;
     flex-direction: column;
@@ -80,4 +79,21 @@ input, textarea{
 textarea{
     height: 5rem;
     width:15rem;
+}
+
+@media screen  and (max-width:880px){
+    .mail-icon{
+        display: none;
+    }
+
+    .form-div{
+        margin-top: 3rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        gap: 4rem;
+        width: 30rem;
+        padding-top: 5em;
+    }
+
 }
