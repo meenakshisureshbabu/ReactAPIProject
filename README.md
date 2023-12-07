@@ -1,3 +1,23 @@
+# PROJECT FRUIT INFO WEBSITE
+
+### Table of Contents
+
+1. [About the Project](#abouttheproject)
+    - Motivation
+    - Built With
+2. Getting Started
+    - Pre-requisites
+    - Installation
+3. Build Status
+4. Screenshots
+5. Features
+6. Reference
+7. Credits
+
+
+### About the Project {#abouttheproject}
+
+
 
 
 
