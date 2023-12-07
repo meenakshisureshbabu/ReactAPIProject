@@ -26,7 +26,7 @@ function Navigation() {
                   NUTRITION</li>
                 </Link>
                 <a href="https://www.google.com/maps/search/grocery+store+near+me/" target='_blank'>
-                <li><SiGooglemaps />Spot Grocery Store<LuExternalLink/></li>
+                <li><SiGooglemaps />SPOT NEARBY GROCERY STORE<LuExternalLink/></li>
                 </a>
                 <Link to='/contact'>
                   <li>

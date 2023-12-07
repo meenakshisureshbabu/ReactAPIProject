@@ -1,12 +1,14 @@
-import React, { useRef, useState } from "react";
+import React, { useContext, useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
 import Header from "../Header/Header";
 import Footer from "../Footer/Footer";
 import "../ContactUs/contact.css";
+import { DarkModeContext } from "../../context/DarkModeContext";
 
 function Contact() {
   const form = useRef();
   const [show,setShow] = useState(false);
+  const {darkMode} = useContext(DarkModeContext);
 
   const sendEmail = (e) => {
 
@@ -35,7 +37,10 @@ function Contact() {
   return (
     <>
       <Header />
-      <div className={show ? "messagesent" : "hiddenmessage"}>Message Sent</div>
+      <div className={darkMode ? "contact-dark" : "contact"}>
+      <div className={show ? "messagesent" : "hiddenmessage"}>
+        <img className="sent-icon" src="https://cdn.iconscout.com/icon/free/png-256/free-message-sent-9-1158909.png" alt="messageicon"/>
+        Message Sent</div>
       <div className="contact-container">
         
         <div>
@@ -72,6 +77,7 @@ function Contact() {
             </div>
           </div>
         </form>
+      </div>
       </div>
       <Footer />
     </>
