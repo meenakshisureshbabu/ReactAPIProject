@@ -19,7 +19,7 @@ function Header() {
               </TypeAnimation>
         </div>
         
-        <ToggleComponent/>
+        <ToggleComponent />
     </div>
     <Navigation/>
     </>

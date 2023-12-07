@@ -7,15 +7,15 @@
   }
   .checkbox {
     display: none;
-  }
-  .label {
+  } 
+   .label {
     display: block;
     overflow: hidden;
     cursor: pointer;
     border: 0 solid #bbb;
     border-radius: 20px;
-  }
-  .inner {
+  } 
+   .inner {
     display: block;
     width: 200%;
     margin-left: -100%;
@@ -35,7 +35,7 @@
   .inner:before {
     content: "YES";
     padding-left: 10px;
-    background-color: #060;
+    background-color: black;
     color: #fff;
   }
   .inner:after {

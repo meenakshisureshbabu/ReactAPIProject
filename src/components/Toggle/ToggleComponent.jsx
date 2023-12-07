@@ -7,12 +7,17 @@ function ToggleComponent() {
     const {darkMode,toggleMode} = useContext(DarkModeContext);
     const handleClick = () => {
         toggleMode();
+        console.log(darkMode);
     }
+
+
+
   return (
     <div className='toggle-container'>
         <label>DarkMode</label>
         <div className='toggle-switch'>
-            <input type="checkbox" className='checkbox' name="DarkMode" id="DarkMode" onClick={handleClick}/>
+            
+            <input type="checkbox" className='checkbox' name="DarkMode" id="DarkMode" onClick={handleClick} checked={darkMode ? true : false}/>
             <label className='label' htmlFor='DarkMode'>
                 <span className='inner'/>
                 <span className='switch'/>
