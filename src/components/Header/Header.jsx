@@ -1,7 +1,5 @@
 import React from 'react'
 import './header.css';
-import { FaSearch } from "react-icons/fa";
-import { Link } from 'react-router-dom';
 import { TypeAnimation } from 'react-type-animation'
 
 import ToggleComponent from '../Toggle/ToggleComponent';
@@ -16,7 +14,7 @@ function Header() {
             <img className='icon-image' src="https://cdn4.vectorstock.com/i/1000x1000/92/23/fruits-circle-icon-vector-17509223.jpg" alt="icon"></img>
         </div>
         <div className='heading-div'>
-              <TypeAnimation sequence={["DISCOVER YOUR FRUIT PLATE",1000,"EAT BETTER FEEL BETTER",1000]} speed={50} repeat={Infinity} style={{fontSize:"2em",fontWeight:"bold"}}>
+              <TypeAnimation sequence={["DISCOVER YOUR FRUIT PLATE",1000,"EAT BETTER FEEL BETTER",1000]} speed={50} repeat={Infinity} style={{fontSize:"1em",fontWeight:"bold"}}>
 
               </TypeAnimation>
         </div>
