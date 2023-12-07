@@ -8,7 +8,7 @@ function AboutImportantsection() {
   const {darkMode} = useContext(DarkModeContext)
   return (
     <div className= {darkMode ? `aboutimportantsection-div-dark` : `aboutimportantsection-div`}>
-        <div className='aboutimp-header-div'>
+        <div className= {darkMode ? `aboutimp-header-div-dark` : `aboutimp-header-div`}>
             <h1>Why is it important to eat fruit?</h1>
             <p>Eating fruit has many health benefits. People who eat fruits and vegetables as part of an overall diet may lower their risk for certain diseases. Fruits provide nutrients needed to maintain your health and body.</p>
             <div className='carousel'>

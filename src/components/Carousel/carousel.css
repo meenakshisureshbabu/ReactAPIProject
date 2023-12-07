@@ -1,21 +1,30 @@
-.carousel-div{
-    border: solid black;
-    height: 20rem;
-    margin-right: 2rem;
-}
+
 
 .inner-carousel{
     transition: transform 0.3s;
 }
 
-.carousel-div{
+.carousel-div, .carousel-div-dark{
     overflow: hidden;
     display: flex;
     flex-direction: column;
     justify-content: center;
     height: auto;
     margin-left: 3rem;
+    border: solid black;
+    margin-right: 2rem;
 }
+
+.carousel-div{
+    background-color: white;
+    color: black;
+}
+
+.carousel-div-dark{
+    background-color: black;
+    color: white;
+}
+
 
 .carousel-data{
     height: 20rem;
