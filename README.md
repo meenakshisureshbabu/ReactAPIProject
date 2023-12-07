@@ -110,9 +110,8 @@ The user can send the mail with the questions they have.
 
 ### Credits
 
-1. Jordan Wofford
-2. Dylan Comeau
-3. Suresh Babu
+1. [Jordan Wofford](https://www.linkedin.com/in/jmwofford/)
+2. [Dylan Comeau](https://www.linkedin.com/in/dylan-comeau-3b184815b/)
 
 
 
