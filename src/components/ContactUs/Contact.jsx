@@ -36,8 +36,9 @@ function Contact() {
 
   return (
     <>
-      <Header />
+      
       <div className={darkMode ? "contact-dark" : "contact"}>
+      <Header />
       <div className={show ? "messagesent" : "hiddenmessage"}>
         <img className="sent-icon" src="https://cdn.iconscout.com/icon/free/png-256/free-message-sent-9-1158909.png" alt="messageicon"/>
         Message Sent</div>
@@ -78,8 +79,9 @@ function Contact() {
           </div>
         </form>
       </div>
-      </div>
       <Footer />
+      </div>
+      
     </>
   );
 }
