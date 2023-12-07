@@ -8,6 +8,7 @@ import Header from './components/Header/Header';
 import { Route,Routes } from 'react-router-dom';
 import About from './components/About/About';
 import DarkModeProvider from './context/DarkModeContext';
+import Contact from './components/ContactUs/Contact';
 
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
       <Routes>
       <Route path='/' element={<About/>}/>
       <Route path='/kyf' element={<FruitDisplay fruitimages={fruitimages}/>}/>
+      <Route path='/contact' element={<Contact/>}/>
       </Routes>
       </DarkModeProvider>
     </div>

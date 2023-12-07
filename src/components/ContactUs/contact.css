@@ -1,0 +1,51 @@
+.contact-container{
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+.form-div{
+
+    margin-top: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 5rem;
+    width: 50rem;
+    padding-top: 5em;
+}
+
+.namelabel, .emaillabel, .messagelabel{
+    font-size: 22px;
+    text-align: left;
+}
+
+.name, .email{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    gap:5rem;
+}
+
+.message{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.submitbtn{
+    background-image: linear-gradient(to right,#bb99ff,#66e0ff);
+    width: 200px;
+    border-radius: 10px;
+    font-size: 15px;
+    height: 30px;
+}
+
+input, textarea{
+    border-radius: 10px;
+    height: 2rem;
+}
+
+textarea{
+    height: 5rem;
+    width:15rem;
+}

@@ -28,7 +28,11 @@ function Navigation() {
                 <a href="https://www.google.com/maps/search/grocery+store+near+me/" target='_blank'>
                 <li><SiGooglemaps />Spot Grocery Store<LuExternalLink/></li>
                 </a>
-                
+                <Link to='/contact'>
+                  <li>
+                    CONTACT US
+                  </li>
+                </Link>
             </ul>
             </div>
         </div>
