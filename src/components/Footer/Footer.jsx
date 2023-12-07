@@ -15,11 +15,11 @@ function Footer() {
                 <div>KNOW ABOUT YOUR FRUIT</div>
               </Link>
               <a href="https://www.google.com/maps/search/grocery+store+near+me/" target="_blank">
-              <div>SPOT YOUR GROCERY STORE</div>
+              <div>SPOT YOUR GROCERY STORE<FiExternalLink/></div>
               </a>
-              <a href="https://www.linkedin.com/in/meenakshisb/" target="_blank">
-              <div>CONTACT INFO  <FiExternalLink/></div>
-              </a>
+              <Link to="/contact">
+              <div>CONTACT US  </div>
+              </Link>
         </div>
         <h2>FOLLOW ME</h2>
       <div className="connectdiv">
