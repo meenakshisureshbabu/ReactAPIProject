@@ -15,6 +15,10 @@
     border: 0 solid #bbb;
     border-radius: 20px;
   } 
+
+  .darklabel{
+    color: black;
+  }
    .inner {
     display: block;
     width: 200%;

@@ -77,13 +77,15 @@ The social icons in this project will not work as it leads to personal informati
 
 ### Screenshots
 
-![Home page](/recipe/public/Untitled.png)
+![Home page]()
 
 This home page has 3 menus, 
 
 1. About
 2. Fruits Nutrition
 3. Spot your nearest grocery store.
+4. Contact Us 
+
 
 
 

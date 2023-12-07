@@ -14,7 +14,7 @@ function ToggleComponent() {
 
   return (
     <div className='toggle-container'>
-        <label>DarkMode</label>
+        <label className={darkMode?'darklabel':'lightlabel'}>DarkMode</label>
         <div className='toggle-switch'>
             
             <input type="checkbox" className='checkbox' name="DarkMode" id="DarkMode" onClick={handleClick} checked={darkMode ? true : false}/>
