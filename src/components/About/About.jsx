@@ -26,7 +26,7 @@ function About() {
         <div className='about-div'>
         <div className='focus-div'>
             {/* <img className='fruitwithkid' src="https://images.theconversation.com/files/60763/original/ydk6krh8-1412333088.jpg?ixlib=rb-1.1.0&q=45&auto=format&w=1356&h=668&fit=crop"/> */}
-            <video width="100%" height="700" autoPlay muted loop={true}>
+            <video className="video-element" width="100%" height="700" autoPlay muted loop={true}>
               <source src="/Videos/fruits.mp4" type="video/mp4"/>
             </video>
             <div><h2>What foods are in the Fruit Group</h2></div>
