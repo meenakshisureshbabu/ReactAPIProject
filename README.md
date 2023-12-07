@@ -9,10 +9,10 @@
     - [Pre-requisites](#pre-requisites)
     - [Installation](#installation)
 3. [Build Status](#build-status)
-4. Screenshots
-5. Features
-6. Reference
-7. Credits
+4. [Screenshots](#screenshots)
+5. [Features](#features)
+6. [Reference](#reference)
+7. [Credits](#credits)
 
 
 ## About the Project
@@ -77,15 +77,42 @@ The social icons in this project will not work as it leads to personal informati
 
 ### Screenshots
 
-![Home page]()
+![Home page](/recipe/public/homepage.png)
 
 This home page has 3 menus, 
 
 1. About
 2. Fruits Nutrition
-3. Spot your nearest grocery store.
+3. Spot your nearest grocery store.(Where the user can directly redirected to google maps with grocery store as input)
 4. Contact Us 
 
+![Fruits Nutrition](/recipe/public/fruits.png)
+
+All the fruits will be displayed in this page and the user can click on each fruit to see its nutritional values which is called from the Fruityvice API.
+
+![Contact Us](/recipe/public/contact.png)
+
+The user can give the name and email id and send email with the messages/questions.
+
+### Features
+
+This website has a feature of toggling between daylight and dark mode themes which is implemented by useContext react hook.
+Fruit search feature is available to make the user search for a particular fruit.
+The user can send the mail with the questions they have.
+
+### Reference
+
+1. [w3Schools](https://www.w3schools.com/)
+2. [Unsplash](https://unsplash.com/)
+3. [Email](https://emailjs.com)
+4. [React Icons](https://react-icons.github.io/react-icons/)
+5. [React Popup](https://react-popup.elazizi.com/)
+
+### Credits
+
+1. Jordan Wofford
+2. Dylan Comeau
+3. Suresh Babu
 
 
 
