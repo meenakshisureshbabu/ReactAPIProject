@@ -5,7 +5,7 @@ function FruitCard({ id }) {
   
   const [data, setData] = useState([]);
   const [isOpen,setIsOpen] = useState(false)
-  const apiurl = `/api/fruit/${id}`;
+  const apiurl = `https://www.fruityvice.com/api/fruit/${id}`;
   
 
   useEffect(() => {
